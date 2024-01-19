@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display:wght@500&family=Roboto:ital,wght@0,400;1,100;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display:wght@400;500&family=Poppins:wght@300&family=Roboto:ital,wght@0,400;1,100;1,400&display=swap');
+
+/* font-family: 'Merriweather', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+
+* {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    display: flex;
+    background-color: black;
+}
+
+header {
+    margin: .5rem 1rem;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: end;
+    margin-right: 2.8rem;
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    line-height: 65px;
+    margin: .8rem;
+    color: white;
+}
+
+@media screen and (min-width:300px)and (max-width:650px){
+   
+    ul {
+        display: flex;
+        width: 100%;
+        height: 60px;
+        justify-content: center;
+        margin-right: 11.8rem;
+
+    }
+   
+    
+    a {
+        text-decoration: none;
+        font-size: 1rem;
+         color: white;
+    } 
+
+   
+
+}
+
+
+
+
+/* *****************nav end************ */
+
+
+/* *****************main start*************** */
+
+@media screen and (min-width:350px)and (max-width:650px){
+   
+    
+    /* .main-container h1 {
+        padding-top: 6rem;
+        text-transform: capitalize;
+        font-size: 2rem;
+        text-align: center;
+        margin-left: -135px;
+        color: white;
+    }
+    
+
+    
+    .main-container h2 {
+        margin-top: 2rem;
+        color: white;
+    }
+    
+    .main-container button {
+        margin-top: 3rem;
+        padding: .8rem 1.4rem;
+        border-radius: 1.3rem;
+        background-color: white;
+        border: none;
+    
+    }
+    */
+
+    
+} 
+.main-container {
+    width: 100%;
+    padding-bottom: 3rem;
+    height: 100%;
+    text-align: center;
+    background-color: black;
+}
+
+.main-container h1 {
+    padding-top: 6rem;
+    text-transform: capitalize;
+    font-size: 3rem;
+    color: white;
+}
+
+.main-container h2 {
+    margin-top: 2rem;
+    color: white;
+}
+
+.main-container button {
+    margin-top: 3rem;
+    padding: .8rem 1.4rem;
+    border-radius: 1.3rem;
+    background-color: white;
+    border: none;
+
+}
+
+/* ************section table************* */
+
+
+.content-box {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 3rem;
+    text-align: center;
+    background-color: rgba(230, 241, 241, 0.803);
+
+}
+
+.content-box h3 {
+    padding-top: 2rem;
+    text-transform: capitalize;
+    color: black;
+    text-align: center;
+   
+    font-size: 1.7rem;
+}
+
+.content-box table {
+    padding-top: 4rem;
+    /* margin-top: 5rem; */
+    line-height: 1.5rem;
+}
+
+td, th {
+  
+    padding: 0 2rem;
+    
+}
+.content-box table tr th{
+    font-weight: lighter;
+}
+
+.content-box table tr td {
+    border-bottom: 1px solid gray;
+    font-weight: bold;
+}
+
+.content-box p {
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.content-box .free-premium {
+    text-align: center;
+    margin-top: 2rem;
+    padding: .8rem 2rem;
+    border-radius: 1.3rem;
+    background-color: black;
+    color: white;
+}
+
+/* ****************BOX CONTAINER ******************* */
+
+.box-container {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    /* padding-bottom: 3rem; */
+    font-size: 1.3rem;
+}
+
+.box-container h4 {
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 40px;
+   
+}
+
+.box-container .phone {
+    text-align: center;
+    padding-top: 1.5rem;
+    font-size: 2rem;
+    font-weight: lighter;
+
+}
+
+
+.container-two {
+    /* height: 450px; */
+    width: 92%;
+    margin-left:3rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.container {
+    border: 2px solid gray;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: rgba(58, 53, 53, 0.35) 0px 5px 15px;
+    margin: 1rem;
+    /* justify-content: center; */
+}
+
+.container button {
+    padding: .5rem;
+    background-color: rgb(18, 62, 194);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.container h5{
+    font-weight: bold;
+    margin-top: 1rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+.container .light {
+    color: gray;
+    line-height: 1.3rem;
+    border-bottom: 1px solid grey;
+}
+
+.container .sum {
+    padding: 1.1rem;
+    margin-left: 2rem;
+    line-height: 1.5rem;
+    color: rgb(9, 9, 50);
+    font-weight: bold;font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container .views {
+    margin-top: 2rem;
+    padding: 1.5rem 10rem;
+    border-radius: 1.5rem;
+    background-color: black;
+    color: white;
+}
+
+
+.box-container .items {
+    text-align: center;
+}
+
+.box-container .items h4 {
+
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+.box-container .items button {
+    margin-top: 2rem;
+    padding: 1rem 1.5rem;
+    border-radius: 1.2rem;
+    font-weight: bold;
+    /* background-color: black; */
+    /* color: white; */
+    font-size: .8rem;
+    border: 2px solid black;
+
+}
+
+
+/* ******************form container****************** */
+
+#section{
+    width: 100%;
+    height:600px;
+    padding-top: 3rem;
+    /* background-color: blueviolet; */
+}
+
+.form-container{
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid rgb(181, 169, 169);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.form-container select, input,p{
+  font-size: 1rem;
+    margin: .2rem;
+    padding-left: .5rem;
+}
+
+#email,#country,#college,#contact{
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+  
+}
+
+#lname,#fname{
+    width: 47%;
+    height: 40px;
+    margin-top: 16px;
+}
+
+.contact, .college,.school,.country{
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-left: -0.4rem;
+}
+
+
+
+#btn{
+    padding: 0.9rem 3.2rem;
+    border-radius: 17px;
+    margin-top: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+
+
+/* ****************footer************** */
+
+
+.footer{
+    width: 100%;
+    height: 150px;
+    /* padding-top: 200px; */
+    background-color: black;
+    text-align: center;
+    /* margin-top: 4rem; */
+    /* padding-top: 9rem; */
+}
+
+.social{
+    padding-top: 3rem;
+    /* margin-left: 1rem; */
+
+
+}
+.copy{
+    padding-top: 2rem;
+    color: white;
+    font-size: 1.2rem;
+}
